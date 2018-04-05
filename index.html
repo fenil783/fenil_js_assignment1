@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+body {
+
+  background-image: url("mediadotnet-logo.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+ background-size: 100%;
+
+	}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+ 
+<div id="div1"></div>
+ 
+
+
+<script>
+
+   var ret = prompt("input");
+   
+if(ret!="")
+   {
+switch(ret) {
+    case '1':
+        var carName="HONDA CITY";
+		alert(carName+"");
+        break;
+ case '2':
+var number=150;
+alert(number+"");
+        break;
+    case '3':
+var x=5;
+var y=10;
+alert(x+y);
+	break;
+case '4':
+var x=5;
+var y=10;
+z=x+y;
+alert(z+"");
+
+break;
+case '5':
+var firstName = "John", lastName = "Doe", age = 35;
+alert("var firstName = John, lastName = Doe, age = 35;");
+
+break;
+case '6':
+const dob=calculateAge();
+alert(dob);
+
+break;
+case '7':
+document.getElementById("div1").innerHTML="yo";
+
+
+break;
+
+      } 
+
+		
+		
+		
+}
+		
+		function calculateAge()
+		{
+		return 20;
+		}
+		
+            
+</script>
+
+
+   
+  
+  </form>
+</div>
+
+</body>
+</html>
